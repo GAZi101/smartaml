@@ -32,7 +32,7 @@ public class ControllersMaster {
         List<HashMap<String, Object>> listMap = new ArrayList<>();
         Map<String, Object> map = new HashMap<String,Object>();
         
-        map.put("takId",id);
+        map.put("takId",id );
         map.put("page",page);
         map.put("size",size);
         JSONObject jso = new JSONObject();
